@@ -1,5 +1,7 @@
-*Parsons School of Design*
+Parsons School of Design
+
 MFA Design and Technology
+
 Web Advanced, JavaScript
 
 Course Description

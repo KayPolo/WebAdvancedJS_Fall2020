@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #252525;
+}
+
+#gallery{
+     /*flex makes sure that the images are not align at the bottom, try without flex*/
+     display: flex;
+     margin-left: 10%;
+     width:80%;
+     margin-top: 5vh;
+ }
+
+#gallery2{
+    /*flex makes sure that the images are not align at the bottom, try without flex*/
+    display: flex;
+    margin-left: 10%;
+    width:80%;
+    margin-top: 5vh;
+}
+
+.column{
+    display: inline-block;
+    margin-left:0.5%;
+    right:0.5%;
+    width:33%;
+}
+
+.column img{
+    cursor: pointer;
+    margin-top:4px;
+    width:100%;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.column img:hover{
+    filter: grayscale(0%);
+}
+
+#popup{
+    top:0;
+    margin:0;
+    z-index: 1;
+    position: fixed;
+    width:100%;
+    height:100vh;
+    display: none;
+    background: rgba(0,0,0,0.7);
+}
+
+#pic-container{
+    z-index: 1;
+    margin-left: 12%;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    width:76%;
+    height:96%;
+    overflow-y: auto;
+}
+
+#pic{
+    cursor: pointer;
+    width: 100%;
+    height:auto;
+}
+
+#left{
+    margin-left: 3%;
+    width:5%;
+}
+
+#right{
+    margin-left: 92%;
+    width:5%;
+}
+
+.direction{
+    cursor: pointer;
+    color: #303030;
+    position: fixed;
+    margin-top:46vh;
+    height:8vh;
+    transition: all 0.3s ease-in-out;
+    font-size: 90px;
+    line-height: 8vh;
+}
+
+.direction:hover{
+    color: white;
+}
+
+/*ScrollBar*/
+/*#pic-container::-webkit-scrollbar {
+    width: 1em;
+}
+
+#pic-containerbody::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#pic-container::-webkit-scrollbar-thumb {
+    background-color: #303030;
+    outline: 1px solid slategrey;
+}
+
+#pic-container::-webkit-scrollbar-thumb:hover{
+    background-color: #606060;
+}*/

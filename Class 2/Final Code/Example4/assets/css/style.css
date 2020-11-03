@@ -1,0 +1,156 @@
+/*Useful sources
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries 
+https://www.sitepoint.com/media-queries-width-vs-device-width/*/
+
+
+/* FOR LAPTOPS, DESKTOPS */
+
+body {
+    background-color: teal;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    text-align: center;
+}
+
+.items {
+    width: 78vw;
+    height: 78vw;
+    float: left;
+    text-align: center;
+    background-color: yellow;
+    margin: 1vw;
+}
+
+#desktop {
+    width: 80vw;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#desktop a {
+    margin: 2vw;
+    color: white;
+    text-decoration: none;
+}
+
+#mobile a {
+    margin: 2vw;
+    color: black;
+    text-decoration: none;
+}
+
+#mobile {
+    display: none;
+}
+
+#work {
+    position: absolute;
+    width: 80vw;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+@media all and (min-width: 800px) and (max-width: 1200px) {
+    body {
+        background-color: orange;
+    }
+    .items {
+        width: calc(76vw/2);
+        height: calc(76vw/2);
+        float: left;
+        text-align: center;
+        background-color: lightskyblue;
+        margin: 1vw;
+    }
+}
+
+@media all and (min-width: 1201px) {
+    body {
+        background-color: crimson;
+    }
+    .items {
+        width: calc(74vw/3);
+        height: calc(74vw/3);
+        float: left;
+        text-align: center;
+        background-color: whitesmoke;
+        margin: 1vw;
+    }
+}
+
+
+/* FOR MOBILE */
+
+
+/*Source for different devices http://cssmediaqueries.com/target/*/
+
+@media all and (max-device-width: 480px) and (orientation: portrait) {
+    body {
+        background-color: yellow;
+    }
+    .items {
+        width: 78vw;
+        height: 78vw;
+        float: left;
+        text-align: center;
+        background-color: black;
+        margin: 1vw;
+    }
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: inline-block;
+    }
+}
+
+
+/* seems to be a difference between Android and iOS, device-width and device-height changes with orientation*/
+
+@media all and (max-device-width: 480px) and (orientation: landscape) {
+    body {
+        background-color: limegreen;
+    }
+    .items {
+        width: calc(74vw/3);
+        height: calc(74vw/3);
+        float: left;
+        text-align: center;
+        background-color: black;
+        margin: 1vw;
+    }
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: inline-block;
+    }
+}
+
+
+/*
+/* FOR LAPTOPS, DESKTOPS */
+
+
+/* @media all and (min-width: 800px) and (max-width: 1200px) {}
+
+@media all and (max-width: 799px) {}
+
+
+/* FOR MOBILE */
+
+
+/*Source for different devices http://cssmediaqueries.com/target/*/
+
+
+/* @media all and (max-device-width: 480px) and (orientation: portrait) {}
+
+
+/* seems to be a difference between Android and iOS, device-width and device-height changes with orientation*/
+
+
+/*@media all and (max-device-width: 480px) and (orientation: landscape) {}*/

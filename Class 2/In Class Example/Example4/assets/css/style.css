@@ -1,0 +1,110 @@
+/* Small Screens (Mobile Default) */
+
+body {
+    background-color: crimson;
+    margin: 0;
+}
+
+#work {
+    width: 80vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+nav a {
+    margin: 2vw;
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline-block;
+}
+
+.items {
+    width: 78vw;
+    height: 78vw;
+    background-color: lightgray;
+    margin: 1vw;
+    text-align: center;
+    float: left;
+}
+
+
+/* 
+Media Queries */
+
+
+/* For Tablets / Small Screens */
+
+@media all and (min-width: 720px) and (max-width:1200px) {
+    body {
+        background-color: goldenrod;
+    }
+    .items {
+        width: calc(76vw / 2);
+        height: calc(76vw / 2);
+        background-color: white;
+    }
+}
+
+
+/* For Desktop */
+
+@media all and (min-width:1201px) {
+    body {
+        background-color: teal;
+    }
+    .items {
+        width: calc(74vw / 3);
+        height: calc(74vw / 3);
+        background-color: yellow;
+    }
+}
+
+
+/* For Mobile Devices */
+
+@media all and (max-device-width:480px) and (orientation: portrait) {
+    body {
+        background-color: yellow;
+    }
+    #mobile {
+        display: inline-block;
+    }
+    #desktop {
+        display: none;
+    }
+    nav a {
+        color: black;
+    }
+}
+
+@media all and (max-device-width:480px) and (orientation: landscape) {
+    body {
+        background-color: limegreen;
+    }
+    #mobile {
+        display: inline-block;
+    }
+    #desktop {
+        display: none;
+    }
+    nav a {
+        color: black;
+    }
+}

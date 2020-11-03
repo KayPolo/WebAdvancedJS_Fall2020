@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Web Design - Device Detection</title>
+</head>
+
+<body>
+    <h1 id="device"></h1>
+
+    <!-- test this on your phone -->
+    <!-- local server (terminal): python -m SimpleHTTPServer -->
+
+
+    <script>
+        // The userAgent property returns the value of the user-agent header sent by the browser to the server.
+        // The value returned, contains information about the name, version and platform of the browser.
+
+        document.getElementById("device").innerHTML = window.navigator.userAgent;
+    </script>
+</body>
+
+</html>

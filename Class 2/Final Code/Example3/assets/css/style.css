@@ -1,0 +1,28 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+section {
+    background-image: url(../img/newschoolbuilding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

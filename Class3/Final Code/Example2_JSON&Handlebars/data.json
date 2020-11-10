@@ -1,0 +1,91 @@
+{"data":[
+    {
+        "website":"WINNERS!",
+        "website-info":
+        [
+            {
+                "title":"Zhenya Rynzhuk Folio 2019",
+                "content":{
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d83cba4067f1346863848.png",
+                    "url":"https://zhenyary.com/",
+                    "parragraph":"Portfolio of Zhenya Rynzhuk: award-winning art director and digital designer. with an architectural background."
+                }
+
+            },
+
+            {
+                "title":"#24hourace",
+                "content":{
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d833d6be5415518964962.jpg",
+                    "url":"http://24hourace.gucci.com/",
+                    "parragraph":"First launched in 2016, the digital project returns with a series of videos that bring the sneaker design to life."
+                }
+
+            },
+
+            {
+                "title":"MakeUI - Styled Sketch UI Kits",
+                "content":{
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d76ae607985a945705399.png",
+                    "url":"https://makeui.design/",
+                    "parragraph":"MakeUI is a digital design tool that generates styled Sketch UI kits within seconds for quick and easy prototyping."
+                }
+
+            }
+        
+        ]
+    
+    },
+
+
+    {   "website":"NOMINEES",
+        "website-info":
+        [
+            {
+                "title":"Julio Cesar",
+                "content":{
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d89d97028b58144534766.jpg",
+                    "url":"https://www.juliocesar.work/",
+                    "parragraph":"A Brazilian creative developer based in Barcelona, focused on digital interactive experiences."
+                }
+
+            },
+
+            {
+                "title":"Intact",
+                "content":{
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d7f7adf1c6b6087801663.jpg",
+                    "url":"https://www.intactsoftware.com/",
+                    "parragraph":"Industry-specific ERP software that helps business operations scale, extend or diversify with ease."
+                }
+
+            },
+
+            {
+                "title":"Warped Cigars",
+                "content":{
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d8a31472a054815604255.png",
+                    "url":"https://www.warpedcigars.com/",
+                    "parragraph":"The official website for boutique cigar company Warped Cigars by Kyle Gellis, with factories in Little Havana and Esteli, Nicaragua."
+                }
+
+            }
+        
+        ]
+    
+    }
+
+
+
+
+]
+
+}
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Handle Bars</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+</head>
+
+<body>
+
+
+    <!-- <script id="my-template" type="text/x-handlebars-template">
+
+        <div>
+            <h1>{{title}}</h1>
+            <h2>{{description}}</h2>
+        </div>
+
+    </script> -->
+
+    <div class="websites-list">
+
+        <script id="my-template" type="text/x-handlebars-template">
+            {{#each data}}
+            <h1>{{website}}</h1>
+
+            {{#each website-info}}
+            <div class="website-container">
+                <img class="website-image" src="{{content.image}}">
+                <h2>{{title}}</h2>
+                <p>{{content.parragraph}}</p>
+            </div>
+
+            {{/each}}
+
+            <div style="clear: both;"></div>
+
+            {{/each}}
+
+
+        </script>
+
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+    <script type="text/javascript" src="assets/js/handlebars-v4.7.6.js"></script>
+
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+
+</html>

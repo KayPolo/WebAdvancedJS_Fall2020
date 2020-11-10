@@ -1,0 +1,28 @@
+/* your style begins here */
+
+html,
+body {
+    background-color: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    font-size: 20px;
+    color: dimgray;
+    padding: 30px;
+    display: block;
+    margin: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#my-button {
+    width: 20vw;
+    height: 5vw;
+    font-size: 20px;
+    background-color: rgb(10, 92, 97);
+    border: none;
+    color: white;
+    margin: 20px;
+}

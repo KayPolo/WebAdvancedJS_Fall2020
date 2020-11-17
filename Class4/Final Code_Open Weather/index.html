@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="weather-container">
+
+        <div id="view">
+            <!-- Note about naming conventions:
+                We're going to use camelCase for everything JS
+                and dashes for html/CSS -->
+
+            <img class="icon">
+            <p class="weather"></p>
+            <p class="temp"></p>
+            <h1 class="city-name"></h1>
+
+            <span id="error"></span>
+
+        </div>
+
+        <div id="search">
+            <input id="city" type="text" name="city" placeholder="Search for City Name" />
+            <button id="search-button">GO</button>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>

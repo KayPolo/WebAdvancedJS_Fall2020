@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My WebSocket App</title>
+
+    <link rel="stylesheet" href="/styles.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script> -->
+    <script src="http://localhost:5000/socket.io/socket.io.js"></script>
+
+</head>
+
+<body>
+    <!-- <h1>Hello Man!</h1> -->
+
+    <div id="web-chat">
+
+        <h2>JS Chat</h2>
+
+        <div id="chat-window">
+            <div id="output"></div>
+
+        </div>
+
+        <input id="handle" type="text" placeholder="Name" />
+        <input id="message" type="text" placeholder="Type something..." />
+        <button id="send">Send</button>
+
+    </div>
+
+
+
+
+    <script src="/client.js"></script>
+</body>
+
+</html>
+
+
+<!-- Credits to: Shaun Pelling - Net Ninka https://github.com/iamshaunjp/websockets-playlist  -->

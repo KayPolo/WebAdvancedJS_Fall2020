@@ -1,0 +1,16 @@
+.block{
+    width: calc(94vw /3);
+    height: calc(94vw /3);
+    float: left;
+    margin: 1vw;
+    margin-top:70px;
+}
+.blue{
+    background-color: rgba(22, 152, 221, 0.858);
+}
+.yellow{
+    background-color: rgb(255, 225, 0);
+}
+.green{
+    background-color: rgb(15, 220, 124);
+}

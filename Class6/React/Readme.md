@@ -112,7 +112,7 @@ e.g:
 ## Import a component to the app
 In the top of the App component you will need to import the new component
 
----  import Header from './components/Header/Header';
+---import Header from './components/Header/Header';
 
 Then inside your root div you can call the component
     <ComponentName/>

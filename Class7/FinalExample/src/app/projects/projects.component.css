@@ -1,0 +1,7 @@
+.Projects{
+    width: calc(90vw / 3);
+    height: calc(90vw / 3);
+    background-color: bisque;
+    float: left;
+    margin: 1vw;
+}

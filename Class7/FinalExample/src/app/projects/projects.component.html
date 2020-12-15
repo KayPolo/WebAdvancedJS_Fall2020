@@ -1,0 +1,13 @@
+<div *ngFor="let project of data">
+    <div class="Projects" (click) = 'myFunction'>
+        <h3>
+            {{ project.name }}
+        </h3>
+        <p>Description: {{project.description}}</p>
+
+        <!-- <p *ngIf="project.description">
+            Description: {{ project.description }}
+        </p> -->
+    </div>
+
+</div>

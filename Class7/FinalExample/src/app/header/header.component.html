@@ -1,0 +1,29 @@
+<!-- <p>header works!</p>
+
+<ul>
+    <li>{{menu[0]}}</li>
+    <li>{{menu[1]}}</li>
+    <li>{{menu[2]}}</li>
+</ul>
+
+
+
+<ng-content></ng-content> -->
+
+<ul>
+    <li *ngFor="let link of menu">{{link}}</li>
+</ul>
+
+<button  (click) = 'showDialog()'>ABOUT</button>
+
+<app-popup id="project-modal" class="hhidden">
+        <div>
+            <h1>ABOUT MY WORK</h1>
+            <p>This is my modal</p>
+        </div>
+</app-popup>
+
+
+  
+    
+
